@@ -13,9 +13,9 @@ function Hero() {
       <ProfileSection>
         <Infos>
 
-          <p className="animated-text">{titles.sub}</p>
-          <h1 className="animated-text">{titles.role0}</h1>
-          <h1 className="animated-text">{titles.role1}</h1>
+          <p>{titles.sub}</p>
+          <h1>{titles.role0}</h1>
+          <h1>{titles.role1}</h1>
 
         </Infos>
       </ProfileSection>

@@ -13,7 +13,7 @@ function Home() {
     <Container>
        <Menu />
       <Section>
-        <Hero/>
+        <Hero />
         <AboutMe/>
         <SelectedCases/>
         <MainSkills/>

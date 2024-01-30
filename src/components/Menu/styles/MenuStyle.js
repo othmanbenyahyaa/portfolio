@@ -1,27 +1,7 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import theme from "../../../styles/Theme.js"
 
-const backInLeft = keyframes`
-  from {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-`;
 
-const backInRight = keyframes`
-  from {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-`;
 
 export const Container = styled.div`
   top: 0;
@@ -33,8 +13,7 @@ export const Container = styled.div`
   border:none;
   position:sticky;
   z-index:1;
-  background-color:${theme.secondBackgroundColor};
-  `;
+background:${theme.primaryBackgroundColor} `;
  
 
   export const NavSection=styled.div`
@@ -54,9 +33,31 @@ export const Container = styled.div`
   display: flex;
   position: relative;
   margin-right:7px;
-  .animated-text {
-    opacity: 0;
-    animation: ${backInRight} 0.9s ease-in-out forwards;
+  img {
+    width: 24px;
+    height: 24px;
+    margin-left:1px;
+    cursor:pointer;
+    @media (max-width: 600px) {
+      width: 14px;
+      height: 14px;
+    }
+    @media (min-width:601px) {
+      width: 14px;
+      height: 14px;
+    }
+    @media (min-width: 768px) {
+      width: 18px;
+      height: 18px;
+    }
+    @media (min-width: 992px) { 
+      width: 22px;
+      height: 22px;
+    }
+    @media (min-width: 1220px) {
+      width: 24px;
+      height: 24px;
+    }
   }
   p {
     color:${theme.secondTextColor};
@@ -121,11 +122,7 @@ export const Container = styled.div`
   display:flex;
   align-items:center;
   justify-content:flex-start;
-  margin:0;
-  .animated-text {
-    opacity: 0;
-    animation: ${backInLeft} 0.9s ease-in-out forwards;
-  }
+
   
   h1{
     margin:0;

@@ -1,15 +1,6 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import theme from "../../../styles/Theme.js";
-const backInLeft = keyframes`
-  from {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-`;
+
 
 export const Container = styled.div`
   display: flex;
@@ -21,7 +12,6 @@ export const Container = styled.div`
   flex-direction:column;
   justify-content:center;
   padding:42px 42px;
-  background-color:${theme.secondBackgroundColor};
   
   @media (max-width: 600px) {
     padding:18px 42px;
@@ -58,10 +48,7 @@ display:flex;
 justify-content:center;
 align-items:flex-start;
 flex-direction:column;
-.animated-text {
-  opacity: 0;
-  animation: ${backInLeft} 0.9s ease-in-out forwards;
-}
+
 p{
   margin:0;
   color:${theme.secondTextColor};
