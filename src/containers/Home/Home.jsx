@@ -25,23 +25,3 @@ function Home() {
 
 export default Home;
 
-/*
-
- <SelectedWorkBox>
-          <SelectedWork
-            company={data.company}
-            projectSubtitle={data.projectSubtitle}
-            viewCaseText={data.viewCaseText}
-            liveDemoText={data.liveDemoText}
-            imageUrl={data.imageUrl}
-          />
-        </SelectedWorkBox>
-
- const data = {
-    company: 'Motto®',
-    projectSubtitle: 'Agency website designed for Motto®, global branding agency.',
-    imageUrl: ProductImage,
-    viewCaseText: 'View Case',
-    liveDemoText: 'Live Demo',
-  };
-    */
