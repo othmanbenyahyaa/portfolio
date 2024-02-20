@@ -1,8 +1,8 @@
 import { Container, Item } from './styles/MainSkillsStyle.js';
-import Html from "../../assets/html.png";
-import Css from "../../assets/css.png";
-import JavaScript from "../../assets/javascript.png";
-import ReactLogo from "../../assets/react.png";
+import Html from "../../assets/icons/html.png";
+import Css from "../../assets/icons/css.png";
+import JavaScript from "../../assets/icons/javascript.png";
+import ReactLogo from "../../assets/icons/react.png";
 
 const MainSkills = () => {
   // Define an array of skill data

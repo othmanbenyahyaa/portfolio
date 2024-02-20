@@ -1,6 +1,6 @@
 import { Container, HiItem, SubItem, WorkInfo, SelectedItems, CasesSec, GetInTouch, ContactMe } from "./WorkStyle.js";
-import Nav from "../../components/Nav/index.jsx";
 import Case from "../../components/Case/index.jsx";
+import Menu from "../../components/Menu/index.jsx"
 import { Link } from 'react-router-dom';
 
 const workInfoData = {
@@ -17,7 +17,7 @@ const getInTouchData = {
 function Work() {
   return (
     <Container>
-      <Nav />
+      <Menu/>
       <WorkInfo>
         <HiItem>
           <h1>{workInfoData.title}</h1>

@@ -1,6 +1,5 @@
 import { Container, ContactInfo, HiItem, ParaItem, ContactItem, Item, MediaItems, MItem } from "./ContactStyle.js";
-import Nav from "../../components/Nav/index.jsx";
-
+import Menu from "../../components/Menu/index.jsx"
 const contactData = {
   title: "Contact.",
   paraText: "Hi!👋 Need a beautiful, well-structured website that you can own and maintain yourself? Get in touch",
@@ -21,8 +20,7 @@ const contactData = {
 function Contact() {
   return (
     <Container>
-      <Nav />
-
+      <Menu/>
       <ContactInfo>
         <HiItem>
           <h1>{contactData.title}</h1>

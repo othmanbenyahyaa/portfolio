@@ -1,35 +1,49 @@
 const theme = {
+  /*background */
     primaryBackgroundColor: '#F8FCF5',
-    cpyBackgroundColor: '#ffe01b',
+    secondBackgroundColor:'#090909',
+
+  /*fonts */
+  primaryFonts: 'Anton, sans-serif',
+  secondaryFonts: 'Barlow Condensed, sans-serif',
+
     primaryTextColor: '#000000',
-    secondTextColor: '#1c1c1c',
+    secondTextColor: '#f7f7f7',
+    hoverTextColor: '#ffd900',
+
+
+  /*button */
     btnBgColor: '#000000',
     btnBorderColor: '#000000',
-    borderColor: '#F1EFEF',
     btnBgTextColor: '#ffffff',
     btnTextColor: '#000000',
+    borderColor: '#F1EFEF',
+
+  /*animation */
     animationColor: '#000000',
-    secondAnimationColor: '#1c1c1c',
- 
+    secondAnimationColor: '#f7f7f7',
+
+  /*copyright */
+  cpyBackgroundColor: '#ffd900',
+  cpyTextColor: '#000000',
 };
 
 export default theme;
  
-
-  /*
- darkMode: {
-    primaryBackgroundColor: '#1c1c1c',
-    cpyBackgroundColor: '#ffe01b',
-    primaryTextColor: '#ffffff',
-    secondTextColor: '#dcdcdc',
-    btnBgColor: '#ffffff',
-    btnBorderColor: '#ffffff',
-    borderColor: '#3c3c3c',
-    btnBgTextColor: '#000000',
-    btnTextColor: '#ffffff',
-    animationColor: '#ffffff',
-    secondAnimationColor: '#dcdcdc',
-  },
+/*
+primary : font-family: 'Anton', sans-serif;
+secondary: font-family: 'Barlow Condensed', sans-serif;
 
 
-   */
+font-family: 'Abril Fatface', serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Cairo', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Sans Tifinagh', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Space Grotesk', sans-serif;
+${theme.secondaryFonts}
+${theme.primaryFonts}
+*/

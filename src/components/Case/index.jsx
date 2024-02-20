@@ -8,9 +8,9 @@ import {
   CodeBtn,
   LivePre
 } from './styles/CaseStyle.js';
-import CaseOne from "../../assets/product2.png";
-import GitIcon from "../../assets/github.png";
-import LiveIcon from "../../assets/live.png";
+import CaseOne from "../../assets/images/product2.png";
+import GitIcon from "../../assets/icons/github.png";
+import LiveIcon from "../../assets/icons/live.png";
 
 const caseData = {
   title: "VICEVERSA",

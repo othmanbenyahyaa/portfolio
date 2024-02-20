@@ -1,8 +1,8 @@
 import { Container, Section, CaseInfo, CaseImgs, PImage, Title, SubTitle, Description, Btns, CodeBtn } from "./styles/CasePageStyle.js";
-import Nav from "../../components/Nav/index.jsx";
-import GitIcon from "../../assets/github.png";
-import LiveIcon from "../../assets/live.png";
-import CaseOne from "../../assets/product2.png";
+import GitIcon from "../../assets/icons/github.png";
+import LiveIcon from "../../assets/icons/live.png";
+import CaseOne from "../../assets/images/product2.png";
+import Menu from "../../components/Menu/index.jsx"
 
 function CasePage() {
   const caseData = {
@@ -20,7 +20,7 @@ function CasePage() {
 
   return (
     <Container>
-      <Nav />
+      <Menu/>
       <Section>
         <CaseInfo>
           <Title>

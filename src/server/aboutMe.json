@@ -1,0 +1,44 @@
+{
+  "aboutMeData": [
+    {
+      "id": 1,
+      "name": "OTHMAN",
+      "fullName": "OTHMAN BENYAHYA",
+      "role": "FRONT-END DEVELOPER",
+      "aboutMe": "Hi! I am Othman Benyahya, a dedicated Front-End Developer boasting over 2 years of hands-on experience in HTML, CSS, JavaScript, React.js, and Next.js technologies. My passion lies in meticulously crafting user-friendly experiences and relishing the opportunity to unravel inventive solutions for intricate challenges. Among my key competencies are the adept design and implementation of intuitive user interfaces using React.js and Next.js, coupled with the efficient integration of server data through Apollo Client and GraphQL. Rigorous testing, including comprehensive unit and functional testing with Testing-Library, ensures the delivery of high-quality, reliable applications. I pride myself on seamless collaboration with development teams to implement cutting-edge features, with a keen focus on documenting UI components using Storybook. My commitment extends to crafting efficient and reusable code with TypeScript and Styled-Components, producing user-friendly and responsive UI components. In my role, I tackle troubleshooting and debugging of frontend applications to elevate performance and user experience. Excited by the limitless possibilities that technology offers, I am keen to connect with like-minded individuals and explore collaborative opportunities to create impactful digital solutions. Let's embark on a journey together to achieve something truly extraordinary.",
+      "bio": "MY NAME IS OTHMAN BENYAHYA. I AM A FRONTEND DEVELOPER BASED IN MOROCCO. I USE MY PASSION AND SKILLS TO CREATE DIGITAL PRODUCTS AND EXPERIENCES. NATIONAL AND INTERNATIONAL CUSTOMERS RELY ON ME FOR DESIGN, IMPLEMENTATION, AND MANAGEMENT OF THEIR DIGITAL PRODUCTS. I HAVE MANY YEARS OF EXPERIENCE AS A FRONTEND WEB DEVELOPER. I LOVE NATURE, FOOTBALL, AND COFFEE.",
+      "resumeUrl": "",
+      "certificatesUrl": "",
+      "contacts": {
+        "instagram": "https://www.instagram.com/your_instagram_username/",
+        "github": "https://github.com/your_github_username",
+        "linkedin": "https://www.linkedin.com/in/your_linkedin_username/",
+        "phoneNumber": "+1234567890",
+        "email": "your.email@example.com"
+      },
+      "skills": {
+        "primary": [
+          { "icon": "SkillIconHtml", "label": "HTML", "routing": "/html" },
+          { "icon": "SkillIconCss", "label": "CSS", "routing": "/css" },
+          { "icon": "SkillIconJs", "label": "JavaScript", "routing": "/javascript" },
+          { "icon": "SkillIconReact", "label": "React JS", "routing": "/react-js" }
+        ],
+        "secondary": [
+          { "icon": "IcNext", "label": "Next Js", "routing": "/next-js" },
+          { "icon": "IcTs", "label": "TypeScript", "routing": "/typescript" },
+          { "icon": "IcTailwind", "label": "Tailwind CSS", "routing": "/tailwind-css" },
+          { "icon": "IcGraph", "label": "GraphQL", "routing": "/graphql" },
+          { "icon": "IcGit", "label": "Git", "routing": "/git" },
+          { "icon": "IcGithub", "label": "GitHub", "routing": "/github" },
+          { "icon": "IcCode", "label": "Styled-Components", "routing": "/styled-components" },
+          { "icon": "IcCode", "label": "CSS Flexbox Layouts", "routing": "/css-flexbox-layouts" },
+          { "icon": "IcCode", "label": "Axios", "routing": "/axios" },
+          { "icon": "IcCode", "label": "Testing-Library & Jest", "routing": "/testing-library-jest" },
+          { "icon": "IcCode", "label": "Debugging Code", "routing": "/debugging-code" },
+          { "icon": "IcCode", "label": "Issuse Management", "routing": "/issue-management" }
+        ]
+      }
+    }
+  ]
+}
+

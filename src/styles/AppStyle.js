@@ -9,7 +9,19 @@ left:0;
 box-sizing: border-box;
 position:fixed;
 overflow: auto;
+flex-direction:column;
 background-color:${theme.primaryBackgroundColor};
+`;
+export const HeadSection=styled.div`
+width:100%;
+display:flex;
+background:green;
+
+`;
+export const ContentSection=styled.div`
+width:100%;
+display:flex;
+flex-direction:column;
 
 `;
 

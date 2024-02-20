@@ -1,12 +1,11 @@
+import PropTypes from 'prop-types';
 import { Container, InfoSection, AboutInfo, Items, BtnSection, ButtonContainer, ButtonInner, Portrait } from "./styles/AboutMe.js";
 import { Link } from 'react-router-dom';
-import PortraitImg from "../../assets/av2.png";
+import PortraitImg from "../../assets/graphs/av2.png";
 
-function AboutMe() {
-  // Define an object with your data
+function AboutMe({ name, bio }) {
   const aboutMeData = {
-    title: "HELLO I AM OTHMAN",
-    content: "MY NAME IS OTHMAN BENYAHYA. I AM A FRONTEND DEVELOPER BASED IN MOROCCO. I USE MY PASSION AND SKILLS TO CREATE DIGITAL PRODUCTS AND EXPERIENCES. NATIONAL AND INTERNATIONAL CUSTOMERS RELY ON ME FOR DESIGN, IMPLEMENTATION, AND MANAGEMENT OF THEIR DIGITAL PRODUCTS. I HAVE MANY YEARS OF EXPERIENCE AS A FRONTEND WEB DEVELOPER. I LOVE NATURE, FOOTBALL, AND COFFEE.",
+    title: "HELLO I AM ",
     buttonText: "SEE MORE",
     buttonLink: "/about",
     portraitAltText: "Portrait image"
@@ -14,11 +13,11 @@ function AboutMe() {
 
   return (
     <Container>
-      <h1>{aboutMeData.title}</h1>
+      <h1>{aboutMeData.title}{name}</h1>
       <InfoSection>
         <AboutInfo>
           <Items>
-            <p>{aboutMeData.content}</p>
+            <p>{bio}</p>
           </Items>
           <BtnSection>
             <ButtonContainer>
@@ -37,5 +36,12 @@ function AboutMe() {
   );
 }
 
+// Define PropTypes for name and bio
+AboutMe.propTypes = {
+  name: PropTypes.string.isRequired,
+  bio: PropTypes.string.isRequired
+};
+
 export default AboutMe;
+
 
