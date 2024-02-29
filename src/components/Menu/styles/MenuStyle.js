@@ -21,9 +21,7 @@ height: max-content;
   border: none;
   box-sizing: border-box;
   overflow: auto;
-  background:${theme.secondBackgroundColor};
   flex-direction:column;
-  z-index:1;
 `;
 
 // Menu Section

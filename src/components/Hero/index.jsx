@@ -11,7 +11,7 @@ function Hero({ myName, role }) {
     { text: "FIND PROJECT", link: "/work" },
   ];
   return (
-    <Container>
+    <Container gradient="gradient1">
       <ProfileSection>
         <Desgin>
           <img src={CodeIcon} alt="Code" />

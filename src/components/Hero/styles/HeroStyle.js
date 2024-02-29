@@ -3,6 +3,13 @@ import styled from 'styled-components';
 import theme from "../../../styles/Theme.js";
 
 
+const gradients = {
+  gradient1: 'linear-gradient(45deg, #7B012D, #73E0A9)',
+  gradient2: 'linear-gradient(45deg, #73E0A9, #FFFFFF)',
+  gradient3: 'linear-gradient(45deg, #FFFFFF, #7B012D)',
+  // Add more gradient options here
+};
+//  background: ${theme.secondBackgroundColor};
 
 export const Container = styled.div`
   display: flex;
@@ -13,7 +20,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   padding: 132px 42px;
-  background: ${theme.secondBackgroundColor};
+  background: ${({ gradient }) => gradients[gradient] || 'inherit'};
   position: relative;
   
   @media (max-width: 600px) {
